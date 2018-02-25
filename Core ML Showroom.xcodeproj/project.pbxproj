@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D15A762042488A002BF9EF /* OnboardingPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15A752042488A002BF9EF /* OnboardingPages.swift */; };
+		64D15A7920424AF8002BF9EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15A7820424AF8002BF9EF /* HomeView.swift */; };
+		64D15A7B20425942002BF9EF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15A7A20425942002BF9EF /* InfoView.swift */; };
+		64D15A832042899F002BF9EF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15A822042899F002BF9EF /* Model.swift */; };
+		64D15A8620428FD9002BF9EF /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15A8520428FD9002BF9EF /* CategoryView.swift */; };
+		64D15AD8204297DF002BF9EF /* Exermote.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AD3204297DA002BF9EF /* Exermote.mlmodel */; };
+		64D15AD9204297DF002BF9EF /* GestureAI.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AD7204297DF002BF9EF /* GestureAI.mlmodel */; };
+		64D15AE2204297FC002BF9EF /* MessageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AD5204297DA002BF9EF /* MessageClassifier.mlmodel */; };
+		64D15AE3204297FC002BF9EF /* NamesDT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15ADB204297DF002BF9EF /* NamesDT.mlmodel */; };
+		64D15AE4204297FC002BF9EF /* SentimentPolarity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15ADE204297E6002BF9EF /* SentimentPolarity.mlmodel */; };
+		64D15AE5204297FC002BF9EF /* DocumentClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AE1204297FC002BF9EF /* DocumentClassification.mlmodel */; };
+		64D15AEE20429818002BF9EF /* FNS-Udnie.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AD4204297DA002BF9EF /* FNS-Udnie.mlmodel */; };
+		64D15AEF20429818002BF9EF /* AnimeScale2x.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15ADA204297DF002BF9EF /* AnimeScale2x.mlmodel */; };
+		64D15AF020429818002BF9EF /* HED_so.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15ADD204297E6002BF9EF /* HED_so.mlmodel */; };
+		64D15AF120429818002BF9EF /* FNS-Mosaic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AE0204297FC002BF9EF /* FNS-Mosaic.mlmodel */; };
+		64D15AF220429818002BF9EF /* FNS-La-Muse.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AE7204297FE002BF9EF /* FNS-La-Muse.mlmodel */; };
+		64D15AF320429818002BF9EF /* FNS-Candy.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AE920429808002BF9EF /* FNS-Candy.mlmodel */; };
+		64D15AF420429818002BF9EF /* FNS-Feathers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AEB20429816002BF9EF /* FNS-Feathers.mlmodel */; };
+		64D15AF520429818002BF9EF /* FNS-The-Scream.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AED20429818002BF9EF /* FNS-The-Scream.mlmodel */; };
+		64D15AFD20429837002BF9EF /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AD0204297BE002BF9EF /* GoogLeNetPlaces.mlmodel */; };
+		64D15AFE20429837002BF9EF /* Nudity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AD1204297C0002BF9EF /* Nudity.mlmodel */; };
+		64D15AFF20429837002BF9EF /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AD2204297DA002BF9EF /* VGG16.mlmodel */; };
+		64D15B0020429837002BF9EF /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AD6204297DF002BF9EF /* Resnet50.mlmodel */; };
+		64D15B0120429837002BF9EF /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15ADC204297E3002BF9EF /* Food101.mlmodel */; };
+		64D15B0220429837002BF9EF /* CNNEmotions.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15ADF204297FC002BF9EF /* CNNEmotions.mlmodel */; };
+		64D15B0320429837002BF9EF /* CarRecognition.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AE6204297FE002BF9EF /* CarRecognition.mlmodel */; };
+		64D15B0420429837002BF9EF /* FlickrStyle.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AE820429808002BF9EF /* FlickrStyle.mlmodel */; };
+		64D15B0520429837002BF9EF /* RN1015k500.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AEA20429815002BF9EF /* RN1015k500.mlmodel */; };
+		64D15B0620429837002BF9EF /* AgeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AEC20429818002BF9EF /* AgeNet.mlmodel */; };
+		64D15B0720429837002BF9EF /* GenderNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AF62042981B002BF9EF /* GenderNet.mlmodel */; };
+		64D15B0820429837002BF9EF /* TinyYOLO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AF72042981E002BF9EF /* TinyYOLO.mlmodel */; };
+		64D15B0920429837002BF9EF /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AF82042981E002BF9EF /* MNIST.mlmodel */; };
+		64D15B0A20429837002BF9EF /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AF92042981F002BF9EF /* MobileNet.mlmodel */; };
+		64D15B0B20429837002BF9EF /* VisualSentimentCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AFA20429829002BF9EF /* VisualSentimentCNN.mlmodel */; };
+		64D15B0C20429837002BF9EF /* Oxford102.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AFB20429833002BF9EF /* Oxford102.mlmodel */; };
+		64D15B0D20429837002BF9EF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64D15AFC20429837002BF9EF /* Inceptionv3.mlmodel */; };
+		64D15B142042B3D4002BF9EF /* MobileNetModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B132042B3D4002BF9EF /* MobileNetModelViewController.swift */; };
+		64D15B162042B4A5002BF9EF /* GoogLeNetPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B152042B4A5002BF9EF /* GoogLeNetPlacesViewController.swift */; };
+		64D15B182042B4C2002BF9EF /* Inceptionv3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B172042B4C2002BF9EF /* Inceptionv3ViewController.swift */; };
+		64D15B1A2042B4F4002BF9EF /* Resnet50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B192042B4F4002BF9EF /* Resnet50ViewController.swift */; };
+		64D15B1C2042B5BD002BF9EF /* VGG16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B1B2042B5BD002BF9EF /* VGG16ViewController.swift */; };
+		64D15B1E2042B5D5002BF9EF /* CarRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B1D2042B5D5002BF9EF /* CarRecognitionViewController.swift */; };
+		64D15B202042B5F7002BF9EF /* TinyYOLOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B1F2042B5F7002BF9EF /* TinyYOLOViewController.swift */; };
+		64D15B222042B612002BF9EF /* AgeNetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B212042B612002BF9EF /* AgeNetViewController.swift */; };
+		64D15B242042B62D002BF9EF /* GenderNetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B232042B62D002BF9EF /* GenderNetViewController.swift */; };
+		64D15B262042B646002BF9EF /* MNISTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B252042B646002BF9EF /* MNISTViewController.swift */; };
+		64D15B282042B661002BF9EF /* CNNEmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B272042B661002BF9EF /* CNNEmotionsViewController.swift */; };
+		64D15B2A2042B688002BF9EF /* VisualSentimentCNNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B292042B688002BF9EF /* VisualSentimentCNNViewController.swift */; };
+		64D15B2C2042B6A7002BF9EF /* Food101ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B2B2042B6A7002BF9EF /* Food101ViewController.swift */; };
+		64D15B2E2042B6C4002BF9EF /* Oxford102ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B2D2042B6C4002BF9EF /* Oxford102ViewController.swift */; };
+		64D15B302042B6D8002BF9EF /* FlickrStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B2F2042B6D8002BF9EF /* FlickrStyleViewController.swift */; };
+		64D15B322042B6F0002BF9EF /* RN1015k500ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B312042B6F0002BF9EF /* RN1015k500ViewController.swift */; };
+		64D15B342042B71A002BF9EF /* NudityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B332042B71A002BF9EF /* NudityViewController.swift */; };
+		64D15B362042B74A002BF9EF /* HED_soViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B352042B74A002BF9EF /* HED_soViewController.swift */; };
+		64D15B382042B764002BF9EF /* FNS-CandyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B372042B764002BF9EF /* FNS-CandyViewController.swift */; };
+		64D15B3A2042B781002BF9EF /* FNS-FeathersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B392042B781002BF9EF /* FNS-FeathersViewController.swift */; };
+		64D15B3C2042B79C002BF9EF /* FNS-La-MuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B3B2042B79C002BF9EF /* FNS-La-MuseViewController.swift */; };
+		64D15B3E2042B7C4002BF9EF /* FNS-The-ScreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B3D2042B7C4002BF9EF /* FNS-The-ScreamViewController.swift */; };
+		64D15B402042B7EA002BF9EF /* FNS-UdnieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B3F2042B7EA002BF9EF /* FNS-UdnieViewController.swift */; };
+		64D15B422042B800002BF9EF /* FNS-MosaicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B412042B800002BF9EF /* FNS-MosaicViewController.swift */; };
+		64D15B442042B816002BF9EF /* AnimeScale2xViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B432042B816002BF9EF /* AnimeScale2xViewController.swift */; };
+		64D15B462042B83A002BF9EF /* SentimentPolarityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B452042B83A002BF9EF /* SentimentPolarityViewController.swift */; };
+		64D15B482042B850002BF9EF /* DocumentClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B472042B850002BF9EF /* DocumentClassificationViewController.swift */; };
+		64D15B4A2042B864002BF9EF /* MessageClassifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B492042B864002BF9EF /* MessageClassifierViewController.swift */; };
+		64D15B4C2042B877002BF9EF /* NamesDTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B4B2042B877002BF9EF /* NamesDTViewController.swift */; };
+		64D15B4E2042B88A002BF9EF /* ExermoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B4D2042B88A002BF9EF /* ExermoteViewController.swift */; };
+		64D15B502042B89A002BF9EF /* GestureAIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B4F2042B89A002BF9EF /* GestureAIViewController.swift */; };
+		64D15B522042F044002BF9EF /* ModelInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B512042F044002BF9EF /* ModelInfoViewController.swift */; };
+		64D15B542042F40F002BF9EF /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D15B532042F40F002BF9EF /* ModelViewController.swift */; };
+		64D4C6C020413CB300E2D8AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D4C6BF20413CB300E2D8AA /* AppDelegate.swift */; };
+		64D4C6C220413CB300E2D8AA /* OnboardingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D4C6C120413CB300E2D8AA /* OnboardingItemView.swift */; };
+		64D4C6C720413CB500E2D8AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D4C6C620413CB500E2D8AA /* Assets.xcassets */; };
+		64D4C6CA20413CB500E2D8AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D4C6C820413CB500E2D8AA /* LaunchScreen.storyboard */; };
+		64D4C6D620413DF500E2D8AA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D4C6D520413DF500E2D8AA /* Colors.swift */; };
+		64F509DA20415095007C266F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F509D920415095007C266F /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64D15A752042488A002BF9EF /* OnboardingPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPages.swift; sourceTree = "<group>"; };
+		64D15A7820424AF8002BF9EF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64D15A7A20425942002BF9EF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		64D15A822042899F002BF9EF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		64D15A8520428FD9002BF9EF /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		64D15AD0204297BE002BF9EF /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		64D15AD1204297C0002BF9EF /* Nudity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Nudity.mlmodel; sourceTree = "<group>"; };
+		64D15AD2204297DA002BF9EF /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
+		64D15AD3204297DA002BF9EF /* Exermote.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Exermote.mlmodel; sourceTree = "<group>"; };
+		64D15AD4204297DA002BF9EF /* FNS-Udnie.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-Udnie.mlmodel"; sourceTree = "<group>"; };
+		64D15AD5204297DA002BF9EF /* MessageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MessageClassifier.mlmodel; sourceTree = "<group>"; };
+		64D15AD6204297DF002BF9EF /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		64D15AD7204297DF002BF9EF /* GestureAI.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GestureAI.mlmodel; sourceTree = "<group>"; };
+		64D15ADA204297DF002BF9EF /* AnimeScale2x.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AnimeScale2x.mlmodel; sourceTree = "<group>"; };
+		64D15ADB204297DF002BF9EF /* NamesDT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NamesDT.mlmodel; sourceTree = "<group>"; };
+		64D15ADC204297E3002BF9EF /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
+		64D15ADD204297E6002BF9EF /* HED_so.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HED_so.mlmodel; sourceTree = "<group>"; };
+		64D15ADE204297E6002BF9EF /* SentimentPolarity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SentimentPolarity.mlmodel; sourceTree = "<group>"; };
+		64D15ADF204297FC002BF9EF /* CNNEmotions.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CNNEmotions.mlmodel; sourceTree = "<group>"; };
+		64D15AE0204297FC002BF9EF /* FNS-Mosaic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-Mosaic.mlmodel"; sourceTree = "<group>"; };
+		64D15AE1204297FC002BF9EF /* DocumentClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DocumentClassification.mlmodel; sourceTree = "<group>"; };
+		64D15AE6204297FE002BF9EF /* CarRecognition.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CarRecognition.mlmodel; sourceTree = "<group>"; };
+		64D15AE7204297FE002BF9EF /* FNS-La-Muse.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-La-Muse.mlmodel"; sourceTree = "<group>"; };
+		64D15AE820429808002BF9EF /* FlickrStyle.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlickrStyle.mlmodel; sourceTree = "<group>"; };
+		64D15AE920429808002BF9EF /* FNS-Candy.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-Candy.mlmodel"; sourceTree = "<group>"; };
+		64D15AEA20429815002BF9EF /* RN1015k500.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RN1015k500.mlmodel; sourceTree = "<group>"; };
+		64D15AEB20429816002BF9EF /* FNS-Feathers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-Feathers.mlmodel"; sourceTree = "<group>"; };
+		64D15AEC20429818002BF9EF /* AgeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AgeNet.mlmodel; sourceTree = "<group>"; };
+		64D15AED20429818002BF9EF /* FNS-The-Scream.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FNS-The-Scream.mlmodel"; sourceTree = "<group>"; };
+		64D15AF62042981B002BF9EF /* GenderNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GenderNet.mlmodel; sourceTree = "<group>"; };
+		64D15AF72042981E002BF9EF /* TinyYOLO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TinyYOLO.mlmodel; sourceTree = "<group>"; };
+		64D15AF82042981E002BF9EF /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
+		64D15AF92042981F002BF9EF /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		64D15AFA20429829002BF9EF /* VisualSentimentCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VisualSentimentCNN.mlmodel; sourceTree = "<group>"; };
+		64D15AFB20429833002BF9EF /* Oxford102.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Oxford102.mlmodel; sourceTree = "<group>"; };
+		64D15AFC20429837002BF9EF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		64D15B132042B3D4002BF9EF /* MobileNetModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNetModelViewController.swift; sourceTree = "<group>"; };
+		64D15B152042B4A5002BF9EF /* GoogLeNetPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogLeNetPlacesViewController.swift; sourceTree = "<group>"; };
+		64D15B172042B4C2002BF9EF /* Inceptionv3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inceptionv3ViewController.swift; sourceTree = "<group>"; };
+		64D15B192042B4F4002BF9EF /* Resnet50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resnet50ViewController.swift; sourceTree = "<group>"; };
+		64D15B1B2042B5BD002BF9EF /* VGG16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGG16ViewController.swift; sourceTree = "<group>"; };
+		64D15B1D2042B5D5002BF9EF /* CarRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRecognitionViewController.swift; sourceTree = "<group>"; };
+		64D15B1F2042B5F7002BF9EF /* TinyYOLOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyYOLOViewController.swift; sourceTree = "<group>"; };
+		64D15B212042B612002BF9EF /* AgeNetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeNetViewController.swift; sourceTree = "<group>"; };
+		64D15B232042B62D002BF9EF /* GenderNetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderNetViewController.swift; sourceTree = "<group>"; };
+		64D15B252042B646002BF9EF /* MNISTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNISTViewController.swift; sourceTree = "<group>"; };
+		64D15B272042B661002BF9EF /* CNNEmotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNNEmotionsViewController.swift; sourceTree = "<group>"; };
+		64D15B292042B688002BF9EF /* VisualSentimentCNNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualSentimentCNNViewController.swift; sourceTree = "<group>"; };
+		64D15B2B2042B6A7002BF9EF /* Food101ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food101ViewController.swift; sourceTree = "<group>"; };
+		64D15B2D2042B6C4002BF9EF /* Oxford102ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oxford102ViewController.swift; sourceTree = "<group>"; };
+		64D15B2F2042B6D8002BF9EF /* FlickrStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrStyleViewController.swift; sourceTree = "<group>"; };
+		64D15B312042B6F0002BF9EF /* RN1015k500ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RN1015k500ViewController.swift; sourceTree = "<group>"; };
+		64D15B332042B71A002BF9EF /* NudityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudityViewController.swift; sourceTree = "<group>"; };
+		64D15B352042B74A002BF9EF /* HED_soViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HED_soViewController.swift; sourceTree = "<group>"; };
+		64D15B372042B764002BF9EF /* FNS-CandyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FNS-CandyViewController.swift"; sourceTree = "<group>"; };
+		64D15B392042B781002BF9EF /* FNS-FeathersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FNS-FeathersViewController.swift"; sourceTree = "<group>"; };
+		64D15B3B2042B79C002BF9EF /* FNS-La-MuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FNS-La-MuseViewController.swift"; sourceTree = "<group>"; };
+		64D15B3D2042B7C4002BF9EF /* FNS-The-ScreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FNS-The-ScreamViewController.swift"; sourceTree = "<group>"; };
+		64D15B3F2042B7EA002BF9EF /* FNS-UdnieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FNS-UdnieViewController.swift"; sourceTree = "<group>"; };
+		64D15B412042B800002BF9EF /* FNS-MosaicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FNS-MosaicViewController.swift"; sourceTree = "<group>"; };
+		64D15B432042B816002BF9EF /* AnimeScale2xViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeScale2xViewController.swift; sourceTree = "<group>"; };
+		64D15B452042B83A002BF9EF /* SentimentPolarityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentPolarityViewController.swift; sourceTree = "<group>"; };
+		64D15B472042B850002BF9EF /* DocumentClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentClassificationViewController.swift; sourceTree = "<group>"; };
+		64D15B492042B864002BF9EF /* MessageClassifierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageClassifierViewController.swift; sourceTree = "<group>"; };
+		64D15B4B2042B877002BF9EF /* NamesDTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesDTViewController.swift; sourceTree = "<group>"; };
+		64D15B4D2042B88A002BF9EF /* ExermoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExermoteViewController.swift; sourceTree = "<group>"; };
+		64D15B4F2042B89A002BF9EF /* GestureAIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAIViewController.swift; sourceTree = "<group>"; };
+		64D15B512042F044002BF9EF /* ModelInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelInfoViewController.swift; sourceTree = "<group>"; };
+		64D15B532042F40F002BF9EF /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		64D4C6BC20413CB300E2D8AA /* Core ML Showroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core ML Showroom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D4C6BF20413CB300E2D8AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D4C6C120413CB300E2D8AA /* OnboardingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItemView.swift; sourceTree = "<group>"; };
+		64D4C6C620413CB500E2D8AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D4C6C920413CB500E2D8AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D4C6CB20413CB500E2D8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D4C6D520413DF500E2D8AA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		64F509D920415095007C266F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D4C6B920413CB300E2D8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D15A7720424AEA002BF9EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				64D15A7820424AF8002BF9EF /* HomeView.swift */,
+				64D15A7A20425942002BF9EF /* InfoView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		64D15A8420428FB6002BF9EF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				64D15A8520428FD9002BF9EF /* CategoryView.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		64D15A8720429683002BF9EF /* CoreML Models */ = {
+			isa = PBXGroup;
+			children = (
+				64D15A882042968F002BF9EF /* Image Processing */,
+				64D15A8920429696002BF9EF /* Style Transfer */,
+				64D15A8A204296A4002BF9EF /* Text Analysis */,
+				64D15A8B204296AC002BF9EF /* Others */,
+			);
+			path = "CoreML Models";
+			sourceTree = "<group>";
+		};
+		64D15A882042968F002BF9EF /* Image Processing */ = {
+			isa = PBXGroup;
+			children = (
+				64D15AEC20429818002BF9EF /* AgeNet.mlmodel */,
+				64D15AE6204297FE002BF9EF /* CarRecognition.mlmodel */,
+				64D15ADF204297FC002BF9EF /* CNNEmotions.mlmodel */,
+				64D15AE820429808002BF9EF /* FlickrStyle.mlmodel */,
+				64D15ADC204297E3002BF9EF /* Food101.mlmodel */,
+				64D15AF62042981B002BF9EF /* GenderNet.mlmodel */,
+				64D15AD0204297BE002BF9EF /* GoogLeNetPlaces.mlmodel */,
+				64D15AFC20429837002BF9EF /* Inceptionv3.mlmodel */,
+				64D15AF82042981E002BF9EF /* MNIST.mlmodel */,
+				64D15AF92042981F002BF9EF /* MobileNet.mlmodel */,
+				64D15AD1204297C0002BF9EF /* Nudity.mlmodel */,
+				64D15AFB20429833002BF9EF /* Oxford102.mlmodel */,
+				64D15AD6204297DF002BF9EF /* Resnet50.mlmodel */,
+				64D15AEA20429815002BF9EF /* RN1015k500.mlmodel */,
+				64D15AF72042981E002BF9EF /* TinyYOLO.mlmodel */,
+				64D15AD2204297DA002BF9EF /* VGG16.mlmodel */,
+				64D15AFA20429829002BF9EF /* VisualSentimentCNN.mlmodel */,
+			);
+			path = "Image Processing";
+			sourceTree = "<group>";
+		};
+		64D15A8920429696002BF9EF /* Style Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				64D15ADA204297DF002BF9EF /* AnimeScale2x.mlmodel */,
+				64D15AE920429808002BF9EF /* FNS-Candy.mlmodel */,
+				64D15AEB20429816002BF9EF /* FNS-Feathers.mlmodel */,
+				64D15AE7204297FE002BF9EF /* FNS-La-Muse.mlmodel */,
+				64D15AE0204297FC002BF9EF /* FNS-Mosaic.mlmodel */,
+				64D15AED20429818002BF9EF /* FNS-The-Scream.mlmodel */,
+				64D15AD4204297DA002BF9EF /* FNS-Udnie.mlmodel */,
+				64D15ADD204297E6002BF9EF /* HED_so.mlmodel */,
+			);
+			path = "Style Transfer";
+			sourceTree = "<group>";
+		};
+		64D15A8A204296A4002BF9EF /* Text Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				64D15AE1204297FC002BF9EF /* DocumentClassification.mlmodel */,
+				64D15AD5204297DA002BF9EF /* MessageClassifier.mlmodel */,
+				64D15ADB204297DF002BF9EF /* NamesDT.mlmodel */,
+				64D15ADE204297E6002BF9EF /* SentimentPolarity.mlmodel */,
+			);
+			path = "Text Analysis";
+			sourceTree = "<group>";
+		};
+		64D15A8B204296AC002BF9EF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				64D15AD3204297DA002BF9EF /* Exermote.mlmodel */,
+				64D15AD7204297DF002BF9EF /* GestureAI.mlmodel */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		64D15B0E2042999C002BF9EF /* CoreML Examples */ = {
+			isa = PBXGroup;
+			children = (
+				64D15B0F204299CB002BF9EF /* Image Processing */,
+				64D15B10204299F4002BF9EF /* Style Transfer */,
+				64D15B1120429A00002BF9EF /* Text Analysis */,
+				64D15B1220429A0A002BF9EF /* Others */,
+				64D15B512042F044002BF9EF /* ModelInfoViewController.swift */,
+			);
+			path = "CoreML Examples";
+			sourceTree = "<group>";
+		};
+		64D15B0F204299CB002BF9EF /* Image Processing */ = {
+			isa = PBXGroup;
+			children = (
+				64D15B132042B3D4002BF9EF /* MobileNetModelViewController.swift */,
+				64D15B152042B4A5002BF9EF /* GoogLeNetPlacesViewController.swift */,
+				64D15B172042B4C2002BF9EF /* Inceptionv3ViewController.swift */,
+				64D15B192042B4F4002BF9EF /* Resnet50ViewController.swift */,
+				64D15B1B2042B5BD002BF9EF /* VGG16ViewController.swift */,
+				64D15B1D2042B5D5002BF9EF /* CarRecognitionViewController.swift */,
+				64D15B1F2042B5F7002BF9EF /* TinyYOLOViewController.swift */,
+				64D15B212042B612002BF9EF /* AgeNetViewController.swift */,
+				64D15B232042B62D002BF9EF /* GenderNetViewController.swift */,
+				64D15B252042B646002BF9EF /* MNISTViewController.swift */,
+				64D15B272042B661002BF9EF /* CNNEmotionsViewController.swift */,
+				64D15B292042B688002BF9EF /* VisualSentimentCNNViewController.swift */,
+				64D15B2B2042B6A7002BF9EF /* Food101ViewController.swift */,
+				64D15B2D2042B6C4002BF9EF /* Oxford102ViewController.swift */,
+				64D15B2F2042B6D8002BF9EF /* FlickrStyleViewController.swift */,
+				64D15B312042B6F0002BF9EF /* RN1015k500ViewController.swift */,
+				64D15B332042B71A002BF9EF /* NudityViewController.swift */,
+			);
+			path = "Image Processing";
+			sourceTree = "<group>";
+		};
+		64D15B10204299F4002BF9EF /* Style Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				64D15B352042B74A002BF9EF /* HED_soViewController.swift */,
+				64D15B372042B764002BF9EF /* FNS-CandyViewController.swift */,
+				64D15B392042B781002BF9EF /* FNS-FeathersViewController.swift */,
+				64D15B3B2042B79C002BF9EF /* FNS-La-MuseViewController.swift */,
+				64D15B3D2042B7C4002BF9EF /* FNS-The-ScreamViewController.swift */,
+				64D15B3F2042B7EA002BF9EF /* FNS-UdnieViewController.swift */,
+				64D15B412042B800002BF9EF /* FNS-MosaicViewController.swift */,
+				64D15B432042B816002BF9EF /* AnimeScale2xViewController.swift */,
+			);
+			path = "Style Transfer";
+			sourceTree = "<group>";
+		};
+		64D15B1120429A00002BF9EF /* Text Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				64D15B452042B83A002BF9EF /* SentimentPolarityViewController.swift */,
+				64D15B472042B850002BF9EF /* DocumentClassificationViewController.swift */,
+				64D15B492042B864002BF9EF /* MessageClassifierViewController.swift */,
+				64D15B4B2042B877002BF9EF /* NamesDTViewController.swift */,
+			);
+			path = "Text Analysis";
+			sourceTree = "<group>";
+		};
+		64D15B1220429A0A002BF9EF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				64D15B4D2042B88A002BF9EF /* ExermoteViewController.swift */,
+				64D15B4F2042B89A002BF9EF /* GestureAIViewController.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		64D4C6B320413CB300E2D8AA = {
+			isa = PBXGroup;
+			children = (
+				64D4C6BE20413CB300E2D8AA /* Core ML Showroom */,
+				64D4C6BD20413CB300E2D8AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D4C6BD20413CB300E2D8AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D4C6BC20413CB300E2D8AA /* Core ML Showroom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D4C6BE20413CB300E2D8AA /* Core ML Showroom */ = {
+			isa = PBXGroup;
+			children = (
+				64D4C6D420413D9500E2D8AA /* Extensions */,
+				64D4C6D320413D9000E2D8AA /* Models */,
+				64D4C6D220413D8C00E2D8AA /* Views */,
+				64D4C6D120413D8600E2D8AA /* Resources */,
+				64D4C6BF20413CB300E2D8AA /* AppDelegate.swift */,
+				64D4C6CB20413CB500E2D8AA /* Info.plist */,
+			);
+			path = "Core ML Showroom";
+			sourceTree = "<group>";
+		};
+		64D4C6D120413D8600E2D8AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64D15A8720429683002BF9EF /* CoreML Models */,
+				64D4C6C820413CB500E2D8AA /* LaunchScreen.storyboard */,
+				64D4C6C620413CB500E2D8AA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64D4C6D220413D8C00E2D8AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64D15B0E2042999C002BF9EF /* CoreML Examples */,
+				64D15A8420428FB6002BF9EF /* Category */,
+				64D15A7720424AEA002BF9EF /* Home */,
+				64D4C6D72041408D00E2D8AA /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64D4C6D320413D9000E2D8AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64D15A752042488A002BF9EF /* OnboardingPages.swift */,
+				64D15A822042899F002BF9EF /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64D4C6D420413D9500E2D8AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64D4C6D520413DF500E2D8AA /* Colors.swift */,
+				64D15B532042F40F002BF9EF /* ModelViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64D4C6D72041408D00E2D8AA /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				64D4C6C120413CB300E2D8AA /* OnboardingItemView.swift */,
+				64F509D920415095007C266F /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D4C6BB20413CB300E2D8AA /* Core ML Showroom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D4C6CE20413CB500E2D8AA /* Build configuration list for PBXNativeTarget "Core ML Showroom" */;
+			buildPhases = (
+				64D4C6B820413CB300E2D8AA /* Sources */,
+				64D4C6B920413CB300E2D8AA /* Frameworks */,
+				64D4C6BA20413CB300E2D8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core ML Showroom";
+			productName = "Core ML Showroom";
+			productReference = 64D4C6BC20413CB300E2D8AA /* Core ML Showroom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D4C6B420413CB300E2D8AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ghearly;
+				TargetAttributes = {
+					64D4C6BB20413CB300E2D8AA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 64D4C6B720413CB300E2D8AA /* Build configuration list for PBXProject "Core ML Showroom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D4C6B320413CB300E2D8AA;
+			productRefGroup = 64D4C6BD20413CB300E2D8AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D4C6BB20413CB300E2D8AA /* Core ML Showroom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D4C6BA20413CB300E2D8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D4C6CA20413CB500E2D8AA /* LaunchScreen.storyboard in Resources */,
+				64D4C6C720413CB500E2D8AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D4C6B820413CB300E2D8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D15B462042B83A002BF9EF /* SentimentPolarityViewController.swift in Sources */,
+				64D15AF420429818002BF9EF /* FNS-Feathers.mlmodel in Sources */,
+				64D15B0220429837002BF9EF /* CNNEmotions.mlmodel in Sources */,
+				64D15B362042B74A002BF9EF /* HED_soViewController.swift in Sources */,
+				64D15A832042899F002BF9EF /* Model.swift in Sources */,
+				64D4C6C220413CB300E2D8AA /* OnboardingItemView.swift in Sources */,
+				64D15B202042B5F7002BF9EF /* TinyYOLOViewController.swift in Sources */,
+				64D15AF020429818002BF9EF /* HED_so.mlmodel in Sources */,
+				64D15B0D20429837002BF9EF /* Inceptionv3.mlmodel in Sources */,
+				64D15B502042B89A002BF9EF /* GestureAIViewController.swift in Sources */,
+				64D15AF220429818002BF9EF /* FNS-La-Muse.mlmodel in Sources */,
+				64D15AEE20429818002BF9EF /* FNS-Udnie.mlmodel in Sources */,
+				64D15B542042F40F002BF9EF /* ModelViewController.swift in Sources */,
+				64F509DA20415095007C266F /* OnboardingView.swift in Sources */,
+				64D15AF120429818002BF9EF /* FNS-Mosaic.mlmodel in Sources */,
+				64D15AE2204297FC002BF9EF /* MessageClassifier.mlmodel in Sources */,
+				64D15AE3204297FC002BF9EF /* NamesDT.mlmodel in Sources */,
+				64D15B1C2042B5BD002BF9EF /* VGG16ViewController.swift in Sources */,
+				64D15B0320429837002BF9EF /* CarRecognition.mlmodel in Sources */,
+				64D15B0920429837002BF9EF /* MNIST.mlmodel in Sources */,
+				64D15B262042B646002BF9EF /* MNISTViewController.swift in Sources */,
+				64D15B0A20429837002BF9EF /* MobileNet.mlmodel in Sources */,
+				64D15B242042B62D002BF9EF /* GenderNetViewController.swift in Sources */,
+				64D15B0020429837002BF9EF /* Resnet50.mlmodel in Sources */,
+				64D15B1A2042B4F4002BF9EF /* Resnet50ViewController.swift in Sources */,
+				64D15AEF20429818002BF9EF /* AnimeScale2x.mlmodel in Sources */,
+				64D15B0620429837002BF9EF /* AgeNet.mlmodel in Sources */,
+				64D15B182042B4C2002BF9EF /* Inceptionv3ViewController.swift in Sources */,
+				64D15B402042B7EA002BF9EF /* FNS-UdnieViewController.swift in Sources */,
+				64D15AFD20429837002BF9EF /* GoogLeNetPlaces.mlmodel in Sources */,
+				64D15B0820429837002BF9EF /* TinyYOLO.mlmodel in Sources */,
+				64D15A7920424AF8002BF9EF /* HomeView.swift in Sources */,
+				64D15B3A2042B781002BF9EF /* FNS-FeathersViewController.swift in Sources */,
+				64D15A762042488A002BF9EF /* OnboardingPages.swift in Sources */,
+				64D15B0520429837002BF9EF /* RN1015k500.mlmodel in Sources */,
+				64D15AFE20429837002BF9EF /* Nudity.mlmodel in Sources */,
+				64D15B342042B71A002BF9EF /* NudityViewController.swift in Sources */,
+				64D4C6D620413DF500E2D8AA /* Colors.swift in Sources */,
+				64D15AD9204297DF002BF9EF /* GestureAI.mlmodel in Sources */,
+				64D15AF520429818002BF9EF /* FNS-The-Scream.mlmodel in Sources */,
+				64D15B442042B816002BF9EF /* AnimeScale2xViewController.swift in Sources */,
+				64D4C6C020413CB300E2D8AA /* AppDelegate.swift in Sources */,
+				64D15B3E2042B7C4002BF9EF /* FNS-The-ScreamViewController.swift in Sources */,
+				64D15B2E2042B6C4002BF9EF /* Oxford102ViewController.swift in Sources */,
+				64D15B422042B800002BF9EF /* FNS-MosaicViewController.swift in Sources */,
+				64D15B522042F044002BF9EF /* ModelInfoViewController.swift in Sources */,
+				64D15A7B20425942002BF9EF /* InfoView.swift in Sources */,
+				64D15B162042B4A5002BF9EF /* GoogLeNetPlacesViewController.swift in Sources */,
+				64D15B282042B661002BF9EF /* CNNEmotionsViewController.swift in Sources */,
+				64D15B0720429837002BF9EF /* GenderNet.mlmodel in Sources */,
+				64D15B0420429837002BF9EF /* FlickrStyle.mlmodel in Sources */,
+				64D15B0B20429837002BF9EF /* VisualSentimentCNN.mlmodel in Sources */,
+				64D15B4A2042B864002BF9EF /* MessageClassifierViewController.swift in Sources */,
+				64D15B0120429837002BF9EF /* Food101.mlmodel in Sources */,
+				64D15AE5204297FC002BF9EF /* DocumentClassification.mlmodel in Sources */,
+				64D15A8620428FD9002BF9EF /* CategoryView.swift in Sources */,
+				64D15B222042B612002BF9EF /* AgeNetViewController.swift in Sources */,
+				64D15AFF20429837002BF9EF /* VGG16.mlmodel in Sources */,
+				64D15AF320429818002BF9EF /* FNS-Candy.mlmodel in Sources */,
+				64D15B322042B6F0002BF9EF /* RN1015k500ViewController.swift in Sources */,
+				64D15B4E2042B88A002BF9EF /* ExermoteViewController.swift in Sources */,
+				64D15B2A2042B688002BF9EF /* VisualSentimentCNNViewController.swift in Sources */,
+				64D15B302042B6D8002BF9EF /* FlickrStyleViewController.swift in Sources */,
+				64D15B0C20429837002BF9EF /* Oxford102.mlmodel in Sources */,
+				64D15B142042B3D4002BF9EF /* MobileNetModelViewController.swift in Sources */,
+				64D15B4C2042B877002BF9EF /* NamesDTViewController.swift in Sources */,
+				64D15B482042B850002BF9EF /* DocumentClassificationViewController.swift in Sources */,
+				64D15B1E2042B5D5002BF9EF /* CarRecognitionViewController.swift in Sources */,
+				64D15AE4204297FC002BF9EF /* SentimentPolarity.mlmodel in Sources */,
+				64D15B382042B764002BF9EF /* FNS-CandyViewController.swift in Sources */,
+				64D15B2C2042B6A7002BF9EF /* Food101ViewController.swift in Sources */,
+				64D15AD8204297DF002BF9EF /* Exermote.mlmodel in Sources */,
+				64D15B3C2042B79C002BF9EF /* FNS-La-MuseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64D4C6C820413CB500E2D8AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D4C6C920413CB500E2D8AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D4C6CC20413CB500E2D8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D4C6CD20413CB500E2D8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D4C6CF20413CB500E2D8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3UP9SF283;
+				INFOPLIST_FILE = "Core ML Showroom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghearly.Core-ML-Showroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64D4C6D020413CB500E2D8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3UP9SF283;
+				INFOPLIST_FILE = "Core ML Showroom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ghearly.Core-ML-Showroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D4C6B720413CB300E2D8AA /* Build configuration list for PBXProject "Core ML Showroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D4C6CC20413CB500E2D8AA /* Debug */,
+				64D4C6CD20413CB500E2D8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D4C6CE20413CB500E2D8AA /* Build configuration list for PBXNativeTarget "Core ML Showroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D4C6CF20413CB500E2D8AA /* Debug */,
+				64D4C6D020413CB500E2D8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D4C6B420413CB300E2D8AA /* Project object */;
+}
